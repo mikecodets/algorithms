@@ -1,0 +1,18 @@
+.iss-title {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 3px solid #ecf0f1;
+  background-color: #16a085;
+}
+
+.iss-title h1 {
+  color: #fff;
+}
+
+.iss-content {
+  width: 100%;
+}
+
+.iss-map {
+  height: 400px;
+}

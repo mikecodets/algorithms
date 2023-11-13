@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Simples 🖩</title>
+    <link rel="stylesheet" href="../shared/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <p class="display-result" id="display-result"></p>
+        <table>
+          <tr>
+            <td><button class="button" onclick="clearResult()">C</button></td>
+            <td><button class="button" onclick="removeLastCharacter()"><</button></td>
+            <td><button class="button" onclick="appendNumberToResult('/')">/</button></td>
+            <td><button class="button" onclick="appendNumberToResult('*')">X</button></td>
+          </tr>
+          <tr>
+            <td><button class="button" onclick="appendNumberToResult('7')">7</button></td>
+            <td><button class="button" onclick="appendNumberToResult('8')">8</button></td>
+            <td><button class="button" onclick="appendNumberToResult('9')">9</button></td>
+            <td><button class="button" onclick="appendNumberToResult('-')">-</button></td>
+          </tr>
+          <tr>
+            <td><button class="button" onclick="appendNumberToResult('4')">4</button></td>
+            <td><button class="button" onclick="appendNumberToResult('5')">5</button></td>
+            <td><button class="button" onclick="appendNumberToResult('6')">6</button></td>
+            <td><button class="button" onclick="appendNumberToResult('+')">+</button></td>
+          </tr>
+          <tr>
+            <td><button class="button" onclick="appendNumberToResult('1')">1</button></td>
+            <td><button class="button" onclick="appendNumberToResult('2')">2</button></td>
+            <td><button class="button" onclick="appendNumberToResult('3')">3</button></td>
+            <td rowspan="2"><button class="button" style="height: 106px" onclick="calculateResult()">=</button></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button class="button" style="width: 106px" onclick="appendNumberToResult('0')">0</button>
+            </td>
+            <td><button class="button" onclick="appendNumberToResult('.')">.</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

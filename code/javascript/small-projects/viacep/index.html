@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busque seu endereço 📬</title>
+    <link rel="stylesheet" href="../shared/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="address-container">
+      <div class="address-form">
+        <div class="address-form-title">
+          <h1>Buscar endereço 📬</h1>
+        </div>
+
+        <div class="error-display" id="error-display"></div>
+
+        <form>
+          <div class="form-group">
+            <small>CEP</small>
+            <input type="text" name="zipCode" id="zip-code" />
+          </div>
+          <div class="form-group">
+            <small>Logradouro</small>
+            <input type="text" name="street" id="street" />
+          </div>
+          <div class="form-group">
+            <small>Complemento</small>
+            <input type="text" name="complement" id="complement" />
+          </div>
+          <div class="form-group">
+            <small>Bairro</small>
+            <input type="text" name="neighborhood" id="neighborhood" />
+          </div>
+          <div class="form-group">
+            <small>Cidade</small>
+            <input type="text" name="city" id="city" />
+          </div>
+          <div class="form-group">
+            <small>Unidade federal</small>
+            <input type="text" name="federalUnit" id="federal-unit" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

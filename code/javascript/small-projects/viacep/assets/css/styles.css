@@ -1,0 +1,45 @@
+.address-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address-form {
+  width: 350px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #ecf0f1;
+}
+
+.address-form-title {
+  margin-bottom: 15px;
+}
+
+.address-form-title h1 {
+  color: #2c3e50;
+}
+
+.error-display {
+  padding: 15px 0;
+  color: #c0392b;
+  display: none;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-group small {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+}
